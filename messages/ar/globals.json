@@ -1,0 +1,127 @@
+{
+  "HomePage": {
+    "title": "Hello world! AR"
+  },
+  "Metadata": {
+    "title": "Edublog AR"
+  },
+  "BlogsManagement": {
+    "title": "إدارة المدونات",
+    "adminDescription": "عرض وتحرير وإدارة جميع المدونات التي أنشأها منشئو المحتوى.",
+    "creatorDescription": "عرض وتحرير وإدارة مدوناتك.",
+    "newBlog": {
+      "title": "إضافة مدونة جديدة",
+      "button": "مدونة جديدة"
+    },
+    "blogPreview": {
+      "title": "معاينة المدونة",
+      "description": "معاينة كيفية ظهور مدونتك للقراء."
+    },
+    "deleteBlog": {
+      "title": "حذف المدونة",
+      "description": "هل أنت متأكد أنك تريد حذف المدونة '{title}'؟",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف...",
+      "successTitle": "تم حذف المدونة",
+      "successDescription": "تم حذف المدونة بنجاح.",
+      "errorTitle": "خطأ",
+      "errorDescription": "حدث خطأ أثناء حذف المدونة. يرجى المحاولة مرة أخرى.",
+      "cancel": "إلغاء"
+    },
+    "deleteBlogs": {
+      "title": "حذف المدونات",
+      "button": "حذف المحدد",
+      "description": "هل أنت متأكد أنك تريد حذف {count} مدونة محددة؟",
+      "confirm": "حذف الكل",
+      "deleting": "جاري الحذف...",
+      "successTitle": "تم حذف المدونات",
+      "successDescription": "تم حذف {count} مدونة بنجاح.",
+      "errorTitle": "خطأ",
+      "errorDescription": "حدث خطأ أثناء حذف المدونات. يرجى المحاولة مرة أخرى.",
+      "cancel": "إلغاء"
+    }
+  },
+  "TestsManagement": {
+    "title": "إدارة الاختبارات",
+    "adminDescription": "عرض وتحرير وإدارة جميع الاختبارات التي أنشأها منشئو المحتوى.",
+    "creatorDescription": "عرض وتحرير وإدارة اختباراتك.",
+    "newTest": {
+      "title": "إضافة اختبار جديد",
+      "button": "اختبار جديد"
+    },
+    "testPreview": {
+      "title": "معاينة الاختبار",
+      "description": "تجربة الاختبار لمعرفة كيفية عمله للمتعلمين."
+    },
+    "deleteTest": {
+      "title": "حذف الاختبار",
+      "description": "هل أنت متأكد أنك تريد حذف الاختبار '{title}'؟",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف...",
+      "successTitle": "تم حذف الاختبار",
+      "successDescription": "تم حذف الاختبار بنجاح.",
+      "errorTitle": "خطأ",
+      "errorDescription": "حدث خطأ أثناء حذف الاختبار. يرجى المحاولة مرة أخرى.",
+      "cancel": "إلغاء"
+    },
+    "deleteTests": {
+      "title": "حذف الاختبارات",
+      "button": "حذف المحدد",
+      "description": "هل أنت متأكد أنك تريد حذف {count} اختبار محدد؟",
+      "confirm": "حذف الكل",
+      "deleting": "جاري الحذف...",
+      "successTitle": "تم حذف الاختبارات",
+      "successDescription": "تم حذف {count} اختبار بنجاح.",
+      "errorTitle": "خطأ",
+      "errorDescription": "حدث خطأ أثناء حذف الاختبارات. يرجى المحاولة مرة أخرى.",
+      "cancel": "إلغاء"
+    }
+  },
+  "Toolbar": {
+    "search": {
+      "user": {
+        "label": "البحث حسب الاسم أو البريد الإلكتروني...",
+        "placeholder": "البحث حسب الاسم أو البريد الإلكتروني"
+      },
+      "title": {
+        "label": "البحث حسب العنوان...",
+        "placeholder": "البحث حسب العنوان"
+      }
+    },
+    "level": {
+      "label": "المستوى",
+      "placeholder": "تصفية حسب مستوى المستخدم"
+    },
+    "role": {
+      "label": "الدور",
+      "placeholder": "تصفية حسب دور المستخدم"
+    },
+    "status": {
+      "label": "الحالة",
+      "placeholder": "تصفية حسب الحالة"
+    },
+    "categories": {
+      "label": "الفئات",
+      "placeholder": "تصفية حسب الفئات"
+    },
+    "clearFilter": "مسح التصفية",
+    "columns": {
+      "label": "الأعمدة",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "level": "المستوى",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "title": "العنوان",
+      "description": "الوصف",
+      "fullName": "الاسم الكامل",
+      "select": "اختيار",
+      "categories": "الفئات",
+      "coverUrl": "الغلاف",
+      "author": "المؤلف",
+      "excerpt": "مقتطف",
+      "status": "الحالة",
+      "publishedAt": "تاريخ النشر"
+    }
+  }
+}

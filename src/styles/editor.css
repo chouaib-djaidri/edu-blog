@@ -1,0 +1,55 @@
+.ProseMirror .is-editor-empty:not(.list)::before,
+.ProseMirror .is-empty:not(.list)::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: var(--color-muted-foreground);
+  pointer-events: none;
+  height: 0;
+}
+
+h2.ProseMirror {
+  font-size: var(--text-2xl);
+  line-height: var(--text-2xl--line-height);
+}
+h3.ProseMirror {
+  font-size: var(--text-xl);
+  line-height: var(--text-xl--line-height);
+}
+h4.ProseMirror {
+  font-size: var(--text-lg);
+  line-height: var(--text-lg--line-height);
+}
+h5.ProseMirror {
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
+}
+h6.ProseMirror {
+  font-size: var(--text-sm);
+  line-height: var(--text-sm--line-height);
+}
+strong {
+  font-weight: 700;
+}
+
+.img-placeholder {
+  position: relative;
+  &:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 3px solid var(--novel-stone-200);
+    border-top-color: var(--novel-stone-800);
+    animation: spinning 0.6s linear infinite;
+  }
+}
+
+@keyframes spinning {
+  to {
+    transform: rotate(360deg);
+  }
+}

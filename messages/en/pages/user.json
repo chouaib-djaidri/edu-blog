@@ -1,0 +1,11 @@
+{
+  "Tests": {
+    "onBoarding": {
+      "whatIsYourLevel": "What is your English mastery level?",
+      "testMyLevel": "I want to test my level",
+      "startAsBegginer": "I want to start as a beginner",
+      "info": "This test will help us understand your current English level. You'll be able to access blogs and tests for your level and all lower levels."
+    },
+    "testResult": "Congratulations! Your level is <b>{level}</b>. {level, select, C2 {You have reached the highest level. Well done!} other {Your next level is <b>{nextLevel}</b>.}}"
+  }
+}

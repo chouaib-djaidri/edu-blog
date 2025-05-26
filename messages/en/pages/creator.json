@@ -1,0 +1,76 @@
+{
+  "NewTest": {
+    "title": "Create a New Test",
+    "updateTitle": "Update Test",
+    "description": "Build a fun and interactive test for your learners.",
+    "updateDescription": "Update the fun and interactive test for your learners.",
+    "steps": {
+      "step1": {
+        "title": "Test Details",
+        "description": "Add basic information about your test."
+      },
+      "step2": {
+        "title": "Add Questions",
+        "description": "Create the questions your learners will answer."
+      },
+      "step3": {
+        "title": "Upload Test Cover",
+        "description": "Upload a cover image to represent your test visually."
+      },
+      "step4": {
+        "title": "Review & Publish",
+        "description": "Check all the details and publish your test."
+      }
+    },
+    "noQuizzess": "No Quizzes Added Yet",
+    "quizNotExist": "This Quiz Doesn't exist",
+    "question": "Question",
+    "emptyTest": "This Test Is Empty",
+    "correctAnswerPoints": "Each Correct answer from {level} level gives you +{points}P"
+  },
+  "NewBlog": {
+    "title": "Create a New Blog",
+    "description": "Share knowledge and insights with your audience.",
+    "steps": {
+      "step1": {
+        "title": "Blog Details",
+        "description": "Add basic information about your blog."
+      },
+      "step2": {
+        "title": "Write Content",
+        "description": "Create the content for your blog post."
+      },
+      "step3": {
+        "title": "Upload Cover",
+        "description": "Add a cover image to visually represent your blog."
+      },
+      "step4": {
+        "title": "Attach Quiz (Optional)",
+        "description": "Add a quiz to engage readers if you like."
+      },
+      "step5": {
+        "title": "Preview & Publish",
+        "description": "Check everything and publish your blog."
+      }
+    }
+  },
+  "Quizzess": {
+    "label": "Select Quiz Type:",
+    "oneOption": {
+      "title": "Select One Option",
+      "description": "Select correct option from many options"
+    },
+    "oneImage": {
+      "title": "Select One Image",
+      "description": "Select correct image-based options"
+    },
+    "match": {
+      "title": "Match Pairs",
+      "description": "Match items from two columns correctly"
+    },
+    "orderWords": {
+      "title": "Order Words",
+      "description": "Arrange words in the correct sequence"
+    }
+  }
+}

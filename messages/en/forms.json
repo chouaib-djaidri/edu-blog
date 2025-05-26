@@ -1,0 +1,257 @@
+{
+  "Fields": {
+    "fullName": {
+      "label": "Full name:",
+      "placeholder": "Enter your full name",
+      "userPlaceholder": "Enter user full name"
+    },
+    "email": {
+      "label": "Email:",
+      "placeholder": "Enter your email",
+      "userPlaceholder": "Enter user email"
+    },
+    "password": {
+      "label": "Password:",
+      "placeholder": "Enter your password",
+      "userPlaceholder": "Enter user password"
+    },
+    "pin": {
+      "label": "pin code",
+      "placeholder": "Enter pin code"
+    },
+    "currentPassword": {
+      "label": "Current Password:",
+      "placeholder": "Enter your current password"
+    },
+    "newPassword": {
+      "label": "New Password:",
+      "placeholder": "Enter your new password"
+    },
+    "confirmNewPassword": {
+      "label": "Confirm New Password:",
+      "placeholder": "Confirm your new password"
+    },
+    "level": {
+      "label": "Level:",
+      "title": "Level"
+    },
+    "role": {
+      "label": "Role:"
+    },
+    "deleteConfirm": {
+      "label": "Confirmation",
+      "placeholder": "Type delete to confirm"
+    },
+    "avatarFile": {
+      "label": "Avatar File"
+    },
+    "title": {
+      "label": "Title:",
+      "testPlaceholder": "Enter test title"
+    },
+    "categories": {
+      "label": "Categories:",
+      "placeholder": "Add a category..."
+    },
+    "description": {
+      "label": "Description:",
+      "testPlaceholder": "Enter test description"
+    },
+    "cover": {
+      "label": "Select Cover"
+    },
+    "feedback": {
+      "label": "Feedback:",
+      "placeholder": "Write your feedback..."
+    },
+    "rate": {
+      "label": "Rating:",
+      "placeholder": "Select a rating"
+    }
+  },
+  "Validation": {
+    "fullName": {
+      "invalid": "Full name is invalid",
+      "required": "Full name is required",
+      "invalidFormat": "Full Name must contain only letters, hyphens, apostrophes, and single spaces between words",
+      "tooShort": "Full Name must be at least 2 characters long",
+      "tooLong": "Full Name cannot exceed 50 characters"
+    },
+    "email": {
+      "invalid": "Email is invalid",
+      "required": "Email is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidFormat": "Email must be from these domains: icloud, gmail, yahoo, outlook or hotmail"
+    },
+    "password": {
+      "invalid": "Password is invalid",
+      "required": "Password is required",
+      "tooShort": "Password must be at least 8 characters long",
+      "tooLong": "Password cannot exceed 30 characters",
+      "invalidFormat": "Password must include at least one uppercase letter, one lowercase letter, and one number"
+    },
+    "Role": {
+      "invalid": "The selected Role is invalid"
+    },
+    "pin": {
+      "required": "Code is required",
+      "invalid": "Please enter a valid code",
+      "invalidFormat": "Code must be 6 digits"
+    },
+    "currentPassword": {
+      "invalid": "Current password is invalid",
+      "required": "Current password is required",
+      "tooShort": "Current Password must be at least 8 characters long",
+      "tooLong": "Current password cannot exceed 30 characters",
+      "invalidFormat": "Current Password must include at least one uppercase letter, one lowercase letter, and one number"
+    },
+    "newPassword": {
+      "invalid": "New password is invalid",
+      "required": "New password is required",
+      "tooShort": "New Password must be at least 8 characters long",
+      "tooLong": "New password cannot exceed 30 characters",
+      "invalidFormat": "New Password must include at least one uppercase letter, one lowercase letter, and one number"
+    },
+    "confirmNewPassword": {
+      "invalid": "Confirm new password is invalid",
+      "required": "Confirm new password is required",
+      "mismatch": "New password and confirm new password don't match"
+    },
+    "coverFile": {
+      "required": "A cover file is required",
+      "invalidMime": "Cover file must be a JPEG or PNG image",
+      "tooLarge": "Cover file must not exceed 10MB",
+      "invalid": "Cover file is invalid"
+    },
+    "avatarFile": {
+      "required": "Avatar file is required",
+      "invalidMime": "Avatar file must be a JPEG or PNG image",
+      "tooLarge": "Avatar file must not exceed 5MB",
+      "invalid": "Avatar file is invalid"
+    },
+    "title": {
+      "invalid": "Title is invalid.",
+      "required": "Title is required.",
+      "tooShort": "Title must have at least 5 characters.",
+      "tooLong": "Title must have less than 60 characters.",
+      "invalidFormat": "Title format is invalid."
+    },
+    "description": {
+      "invalid": "Description is invalid.",
+      "required": "Description is required.",
+      "tooShort": "Description must have at least 20 characters.",
+      "tooLong": "Description must have less than 250 characters."
+    },
+    "level": {
+      "invalid": "Level is invalid."
+    },
+    "category": {
+      "invalid": "Category item is invalid.",
+      "invalidFormat": "Category format is invalid."
+    },
+    "categories": {
+      "invalid": "Categories are invalid.",
+      "min": "At least one category is required.",
+      "max": "Maximum of 3 categories allowed."
+    },
+    "cover": {
+      "required": "Cover file is required.",
+      "invalidMime": "Only JPEG and PNG files are allowed.",
+      "maxSize": "File must be less than 5MB.",
+      "invalid": "Cover file is invalid."
+    },
+    "quizTitle": {
+      "invalid": "Quiz title is invalid.",
+      "required": "Quiz title is required.",
+      "tooShort": "Quiz title must have at least 5 characters.",
+      "tooLong": "Quiz title must have less than 60 characters."
+    },
+    "id": {
+      "invalid": "Invalid id.",
+      "required": "Id is required."
+    },
+    "image": {
+      "required": "Image is required.",
+      "invalidMime": "Only JPEG and PNG images are allowed.",
+      "maxSize": "Image must be less than 10MB.",
+      "invalid": "Invalid image URL."
+    },
+    "metadata": {
+      "invalid": "Invalid metadata."
+    },
+    "order": {
+      "invalid": "Order is invalid."
+    },
+    "quizId": {
+      "invalid": "Quiz id is invalid.",
+      "required": "Quiz id is required."
+    },
+    "quizzes": {
+      "min": "Minimum of 5 quizzes required.",
+      "max": "Maximum of 30 quizzes allowed."
+    },
+    "feedback": {
+      "invalid": "Feedback is invalid.",
+      "required": "Feedback is required.",
+      "tooShort": "Feedback is too short.",
+      "tooLong": "Feedback must be 500 characters or less."
+    },
+    "rate": {
+      "invalid": "Rating is invalid.",
+      "mustBeInteger": "Rating must be a whole number.",
+      "tooLow": "Rating must be at least 1.",
+      "tooHigh": "Rating must be 5 or less."
+    }
+  },
+  "Toasts": {
+    "validationError": "Invalid or missing inputs. Try again.",
+    "initialProgressfailed": "Error when try to update level. Try again.",
+    "users": {
+      "addFailed": "Failed to create user. Try again.",
+      "addSuccess": "User added successfully.",
+      "updateFailed": "Failed to update user. Try again.",
+      "updateSuccess": "User updated successfully.",
+      "duplicatedEmail": "Email already in use. Try another.",
+      "deleteSuccess": "{count, plural, one {User deleted successfully.} other {# users deleted successfully.}}",
+      "deleteFailed": "{count, plural, one {Failed to delete user. Try again.} other {Failed to delete # users. Try again.}}"
+    },
+    "auth": {
+      "loginFailed": "Something went wrong. Please try again later.",
+      "incorrectCredentials": "Incorrect credentials. Please try again.",
+      "googleProviderError": {
+        "unauthorizedClient": "This Google account cannot be used. Try a different one.",
+        "accessDenied": "Access denied. Please allow permissions to continue.",
+        "default": "Google authentication failed. Please try again or use another method."
+      },
+      "signupFailed": "We couldn't create your account. Please try again later.",
+      "duplicatedCredentials": "This email is already registered. Try logging in instead.",
+      "emailNotSent": "We couldn't send the email. Please try again later.",
+      "tooManyRequests": "You've made too many requests. Try again in {timer} {timer, plural, =1 {second} other {seconds}}.",
+      "emailVerificationSent": "A new verification email has been sent. Check your inbox.",
+      "expiredCode": "Your verification code is invalid or has expired.",
+      "verificationSuccess": "Your email has been successfully verified.",
+      "emailResetSent": "Reset code sent successfully. Please check your inbox.",
+      "userNotFound": "No account found with this email. Please check and try again.",
+      "verificationError": "There was an error while verifying your code. Please try again later.",
+      "resetPasswordError": "Something went wrong during the password reset process. Please try again.",
+      "passwordIncorrect": "The current password you entered is incorrect. Please try again.",
+      "samePassword": "The new password cannot be the same as the old password. Please choose a different one.",
+      "resetPasswordSuccess": "Your password has been successfully reset. You can now log in with your new password."
+    },
+    "tests": {
+      "uploadError": "Failed to upload cover. Try again.",
+      "updateFailed": "Failed to update test. Try again.",
+      "updateSuccess": "Test updated successfully.",
+      "addFailed": "Failed to add test. Try again.",
+      "addSuccess": "Test created successfully.",
+      "deleteSuccess": "{count, plural, one {Test deleted successfully.} other {# tests deleted successfully.}}",
+      "deleteFailed": "{count, plural, one {Failed to delete test. Try again.} other {Failed to delete # tests. Try again.}}"
+    },
+    "settings": {
+      "updateFailed": "Failed to update your account details. Please try again.",
+      "updateSuccess": "Your account details have been updated successfully.",
+      "deleteAccountFailed": "Failed to delete your account. Please try again or contact support.",
+      "deleteAccountSuccess": "Your account has been deleted successfully. We're sorry to see you go."
+    }
+  }
+}

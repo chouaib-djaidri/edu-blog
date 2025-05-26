@@ -1,0 +1,46 @@
+{
+  "UsersManagement": {
+    "title": "Users Management",
+    "description": "A dedicated space to view and manage all users in one place, making it easy to stay organized and maintain a smooth experience.",
+    "newUser": {
+      "title": "Add New User",
+      "description": "Add new user action"
+    },
+    "updateUser": {
+      "title": "Update User",
+      "description": "Update user action"
+    },
+    "deleteUser": {
+      "title": "Final Confirmation",
+      "description": "Are you sure you want to delete {fullName}?",
+      "warningMessage": "This action is irreversible and will permanently remove the selected user. To confirm, type <b>delete</b> in the field below."
+    },
+    "deleteUsers": {
+      "title": "Final Confirmation",
+      "description": "You are about to delete {count, plural, one {# user} other {# users}}.",
+      "warningMessage": "This action is irreversible and will permanently remove the selected {count, plural, one {user} other {users}}. To confirm, type <b>delete</b> in the field below."
+    }
+  },
+  "TestsManagement": {
+    "title": "Tests Management",
+    "adminDescription": "An administrative overview to browse and remove tests as needed, helping maintain control and ensure the integrity of the testing environment.",
+    "newTest": {
+      "title": "Add New Test",
+      "description": "Add new test action"
+    },
+    "testPreview": {
+      "title": "Test Preview",
+      "description": "test preview action"
+    },
+    "deleteTest": {
+      "title": "Final Confirmation",
+      "description": "Are you sure you want to delete the test titled {title}?",
+      "warningMessage": "This action is irreversible and will permanently remove the selected test. To confirm, type <b>delete</b> in the field below."
+    },
+    "deleteTests": {
+      "title": "Final Confirmation",
+      "description": "You are about to delete {count, plural, one {# test} other {# tests}}.",
+      "warningMessage": "This action is irreversible and will permanently remove the selected {count, plural, one {test} other {tests}}. To confirm, type <b>delete</b> in the field below."
+    }
+  }
+}

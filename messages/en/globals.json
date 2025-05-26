@@ -1,0 +1,232 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Master English",
+      "title2": "In a Fun Way!",
+      "description": "Learn English through interactive blogs and test your knowledge with quizzes. Take on challenges and level up your skills with fun tests designed to track your progress and help you grow faster on Edublog."
+    },
+    "blogs": {
+      "tag": "BLOGS",
+      "title": "Explore Our Blogs",
+      "subtitle": "Learn English the fun way with interactive blogs, quizzes, and challenges. Track your progress, unlock new levels, and improve your skills with every post.",
+      "emptyResult": "No blogs added yet."
+    }
+  },
+  "Metadata": {
+    "title": "Edublog EN"
+  },
+  "Buttons": {
+    "login": "Login",
+    "signup": "Sign up",
+    "createNewAcc": "Create new account",
+    "wait": "Please wait",
+    "continueWithGoogle": "Continue with google",
+    "verify": "Verify",
+    "resend": "Resend",
+    "sending": "Sending...",
+    "forgotPass": "Forgot password?",
+    "sendResetCode": "Send reset code",
+    "resetPassword": "Reset password",
+    "changePassword": "Change password",
+    "backToHome": "Back to home page",
+    "orContinueWithEmail": "or continue with email",
+    "noReceive": "Didn't receive code?",
+    "resendTimer": "Resend available after {timer} {timer, plural, =1 {second} other {seconds}}",
+    "addTask": "Add Task",
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "saveChanges": "Save Changes",
+    "addNewUser": "Add New User",
+    "updateUser": "Update User",
+    "delete": "Delete",
+    "dashboard": "Dashboard",
+    "getStarted": "Get Started Now",
+    "exploreOurBlogs": "Explore Our Blogs",
+    "readMore": "Read More",
+    "previous": "Previous",
+    "next": "Next",
+    "addTest": "Add Test",
+    "remove": "Remove",
+    "addNewQuiz": "Add New Quiz",
+    "backToFirstQuestion": "Back To First Question",
+    "updateTest": "Update Test",
+    "showResult": "See Result",
+    "exploreMoreTests": "Explore More Tests",
+    "goToDashboard": "Go To Dashboard"
+  },
+  "Pagination": {
+    "rowsPerPage": "Rows per page",
+    "page": "Page {current} of {total}",
+    "firstPage": "First page",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "lastPage": "Last page",
+    "noResult": "There is no result"
+  },
+  "Toolbar": {
+    "search": {
+      "user": {
+        "label": "Search by name or email...",
+        "placeholder": "Search by name or email"
+      },
+      "title": {
+        "label": "Search by title...",
+        "placeholder": "Search by title"
+      }
+    },
+    "level": {
+      "label": "Level",
+      "placeholder": "Filter By User Level"
+    },
+    "role": {
+      "label": "Role",
+      "placeholder": "Filter By User Role"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Filter By Status"
+    },
+    "categories": {
+      "label": "Categories",
+      "placeholder": "Filter By Categories"
+    },
+    "clearFilter": "Clear filter",
+    "columns": {
+      "label": "Columns",
+      "email": "Email",
+      "role": "Role",
+      "level": "Level",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "title": "Title",
+      "description": "Description",
+      "fullName": "FullName",
+      "select": "Select",
+      "categories": "Categories",
+      "coverUrl": "Cover",
+      "author": "Author",
+      "excerpt": "Excerpt",
+      "status": "Status",
+      "publishedAt": "Published At"
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "courses": "Courses",
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "newsletter": "Newsletter",
+    "faqs": "FAQs",
+    "contact": "Contact"
+  },
+  "LangSwitcher": {
+    "locale": "{locale, select, ar {Arabic} en {English} fr {French} other {Unknown}}",
+    "language": "Language"
+  },
+  "Test": {
+    "result": {
+      "title": "Result Overview",
+      "description": "Get insights into your test results with a breakdown of your performance."
+    },
+    "answers": "answers",
+    "correctAnswers": "Correct Answers",
+    "wrongAnswers": "Wrong Answers",
+    "totalPoints": "Total Points"
+  },
+  "Settings": {
+    "title": "Account Settings",
+    "description": "View and update your personal information and account details.",
+    "password": {
+      "title": "Password Security",
+      "description": "For your security, Changing your password regularly helps protect your account and personal information from unauthorized access.",
+      "changePassword": "Change your password"
+    },
+    "delete": {
+      "deleteAccount": "Delete your account",
+      "title": "Delete Account",
+      "description": "Deleting your account is a permanent action and cannot be undone. All your data will be permanently erased and cannot be recovered."
+    },
+    "info": {
+      "title": "Account Information",
+      "description": "This section shows when your account was originally created and the most recent time you updated your profile details."
+    },
+    "deleteAccount": {
+      "cannotDeleteAdmin": "This action is not permitted. Admin accounts are protected and cannot be deleted.",
+      "title": "Confirm Account Deletion",
+      "description": "Are you sure you want to delete your account? This action cannot be undone.",
+      "warningMessage": "This action is irreversible and will permanently remove your account and all associated data. To confirm, type <b>delete</b> in the field below."
+    }
+  },
+  "TestsManagement": {
+    "title": "Tests Management",
+    "adminDescription": "View, edit, and manage all tests created by content creators.",
+    "creatorDescription": "View, edit, and manage your tests.",
+    "newTest": {
+      "title": "Add New Test",
+      "button": "New Test"
+    },
+    "testPreview": {
+      "title": "Test Preview",
+      "description": "Try out the test to see how it works for learners."
+    },
+    "deleteTest": {
+      "title": "Delete Test",
+      "description": "Are you sure you want to delete the test '{title}'?",
+      "confirm": "Delete",
+      "deleting": "Deleting...",
+      "successTitle": "Test Deleted",
+      "successDescription": "The test has been successfully deleted.",
+      "errorTitle": "Error",
+      "errorDescription": "There was an error deleting the test. Please try again.",
+      "cancel": "Cancel"
+    },
+    "deleteTests": {
+      "title": "Delete Tests",
+      "button": "Delete Selected",
+      "description": "Are you sure you want to delete {count} selected tests?",
+      "confirm": "Delete All",
+      "deleting": "Deleting...",
+      "successTitle": "Tests Deleted",
+      "successDescription": "{count} tests have been successfully deleted.",
+      "errorTitle": "Error",
+      "errorDescription": "There was an error deleting the tests. Please try again.",
+      "cancel": "Cancel"
+    }
+  },
+  "BlogsManagement": {
+    "title": "Blogs Management",
+    "adminDescription": "View, edit, and manage all blogs created by content creators.",
+    "creatorDescription": "View, edit, and manage your blogs.",
+    "newBlog": {
+      "title": "Add New Blog",
+      "button": "New Blog"
+    },
+    "blogPreview": {
+      "title": "Blog Preview",
+      "description": "Preview how your blog post will appear to readers."
+    },
+    "deleteBlog": {
+      "title": "Delete Blog",
+      "description": "Are you sure you want to delete the blog '{title}'?",
+      "confirm": "Delete",
+      "deleting": "Deleting...",
+      "successTitle": "Blog Deleted",
+      "successDescription": "The blog has been successfully deleted.",
+      "errorTitle": "Error",
+      "errorDescription": "There was an error deleting the blog. Please try again.",
+      "cancel": "Cancel"
+    },
+    "deleteBlogs": {
+      "title": "Delete Blogs",
+      "button": "Delete Selected",
+      "description": "Are you sure you want to delete {count} selected blogs?",
+      "confirm": "Delete All",
+      "deleting": "Deleting...",
+      "successTitle": "Blogs Deleted",
+      "successDescription": "{count} blogs have been successfully deleted.",
+      "errorTitle": "Error",
+      "errorDescription": "There was an error deleting the blogs. Please try again.",
+      "cancel": "Cancel"
+    }
+  }
+}
